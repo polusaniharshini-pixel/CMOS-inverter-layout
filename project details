@@ -1,0 +1,65 @@
+# CMOS INVERTER LAYOUT
+
+## Project Title
+Design and Layout of CMOS Inverter
+
+## Abstract
+This project explains the design and layout of a CMOS inverter using Complementary Metal Oxide Semiconductor (CMOS) technology. A CMOS inverter is a basic digital logic gate used in electronic circuits and VLSI systems. It converts logic HIGH input into logic LOW output and logic LOW input into logic HIGH output. The CMOS inverter is designed using PMOS and NMOS transistors for low power consumption and high efficiency.
+
+## Objective
+- To understand the working of CMOS inverter.
+- To design CMOS inverter layout.
+- To analyze the input-output characteristics of CMOS inverter.
+- To study CMOS technology used in digital electronics.
+
+## Components Used
+### Hardware
+- CMOS Transistors (PMOS and NMOS)
+- Power Supply (VDD)
+- Ground (GND)
+
+### Software
+- Microwind / Cadence / Electric VLSI Tool
+- CMOS Layout Design Software
+
+## Working Principle
+A CMOS inverter consists of one PMOS transistor connected to VDD and one NMOS transistor connected to Ground (GND).
+
+### Working:
+1. When input is LOW (0):
+   - PMOS turns ON
+   - NMOS turns OFF
+   - Output becomes HIGH (1)
+
+2. When input is HIGH (1):
+   - PMOS turns OFF
+   - NMOS turns ON
+   - Output becomes LOW (0)
+
+Thus, the circuit works as an inverter by reversing the input signal.
+
+## CMOS Inverter Circuit
+The CMOS inverter consists of:
+- PMOS transistor connected to VDD
+- NMOS transistor connected to GND
+- Input connected to both gates
+- Output taken from common drain terminal
+
+## Advantages
+- Low power consumption
+- High noise immunity
+- Fast switching speed
+- Efficient digital circuit design
+
+## Applications
+- Digital Logic Gates
+- Microprocessors
+- Memory Circuits
+- VLSI Chip Design
+- Embedded Systems
+
+## Result
+The CMOS inverter layout was successfully designed and analyzed. The inverter correctly produced opposite output for given input signals.
+
+## Conclusion
+The CMOS inverter is one of the fundamental building blocks in digital electronics and VLSI systems. This project helped in understanding CMOS layout design and inverter operation.
